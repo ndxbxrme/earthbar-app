@@ -1,0 +1,17 @@
+html
+  head
+    link(rel='stylesheet', href='app.css')
+  body
+    .controls
+      span How many rods? &nbsp;
+      select#no-rods(value='8', onchange='transitionTo(this.value)')
+        option 2
+        option 3
+        option 4
+        option 5
+        option 6
+        option 7
+        option(selected) 8
+    #viz-container
+    script.
+      window.renderer = require('./renderer');
