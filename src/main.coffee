@@ -9,6 +9,8 @@ mainWindow = null
 ready = ->
   autoUpdater.checkForUpdatesAndNotify()
   mainWindow = new BrowserWindow
+    webPreferences:
+      nodeIntegration: true
     width: 800
     height: 600
   mainWindow.on 'closed', ->
