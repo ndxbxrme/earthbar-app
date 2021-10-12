@@ -20,7 +20,7 @@
   "license": "MIT",
   "homepage": "https://github.com/ndxbxrme/earthbar-app",
   "devDependencies": {
-    "electron": "^7.1.2",
+    "electron": "^11.5.0",
     "electron-builder": "^21.2.0",
     "grunt": "^1.0.4",
     "grunt-cli": "^1.3.2",
